@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Boxingphoto.webp);
+    width: 100%;
+    height: 125%;
+}
+
+
+.uperlinemid{
+    display: block;
+    right: 30%;
+    /* width: 45%; iska kuch kaam nhi hai because ye width set kr k dega.*/
+    top: 4%;
+    position: absolute;
+    margin: 20px auto;
+    /* border: 2px solid yellow; */
+}
+
+
+
+
+.uperlinemid{
+    display: inline-block;
+}
+
+.uperlinemid li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.uperlinemid li a{
+    color: white;
+    text-decoration: none;
+    /* iss line ka use word k niche wali line ko remove krne k liye hota hai. */
+    padding: 0px 23px;
+}
+
+.uperlinemid li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+
+
+
+.uperlineleft{
+    position: absolute;
+    top: 6%;
+    width: 7%;
+    height: 5%;
+    margin-left: 3%;
+}
+
+.uperlineleft img{
+    position: absolute;
+    width: 100%;
+    /* height: 50%; */
+    filter: invert(100%);
+    /* filter invert ka use kr k black photo white and white photo black ho jati hai. */
+}
+
+.uperlineleft div{
+    position: absolute;
+    font-size: 15px;
+    display: inline block;
+    top: 200%;
+    text-align: start;
+    color: white;
+    margin-left: 12%;
+}
+
+
+
+.uperlineright{
+    right: 2%;
+    /* height: 4%; */
+    /* width: 12%; */
+    top: 4%;
+    position: absolute;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+    display: block;
+}
+
+
+
+.btn{
+    margin: 3px 9px;
+    color: white;
+    background-color: black;
+    /* padding: 4xp 14px; */
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    /* iss line ka means joh humara aero hai woh cursor mai aa jayega means hand mai  */
+}
+
+.btn:hover{
+    background-color: darkgray;
+}
+
+
+.container{
+    position: absolute;
+    border: 2px solid white;
+    margin: 300px 120px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+}
+
+.formpage input{
+    font-family: 'baloo bhai' cursive;
+    display: block;
+    align-items: center;
+    margin: 8px auto;
+    width: 80%;
+    padding: 8px;
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+
+
+.container h2{
+    text-align: center;
+    color: white;
+    
+}
+
+
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    padding: 2%;
+}
